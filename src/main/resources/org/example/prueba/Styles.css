@@ -1,0 +1,7 @@
+.vbox-styled {
+    -fx-border-color: blue; /* Cambia 'blue' por el color que desees */
+    -fx-border-width: 2px; /* Ajusta el grosor del borde */
+    -fx-border-radius: 5px; /* Si quieres bordes redondeados */
+    -fx-padding: 10px; /* Ajusta el relleno dentro del VBox */
+    /* Otras propiedades que quieras definir */
+}

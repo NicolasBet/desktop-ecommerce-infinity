@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="183.0" layoutY="26.0" prefHeight="340.0" prefWidth="235.0" spacing="10" styleClass="vbox-styled">
+         <children>
+            <ImageView fitHeight="72.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="180.0" text="Inicio de sesion" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField promptText="Usuario" />
+            <PasswordField promptText="Contraseña" />
+         </children>
+      </VBox>
+      <Button layoutX="228.0" layoutY="298.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="145.0" style="-fx-background-color: #0000FF; -fx-text-fill: #ffffff; -fx-background-radius: 5;" text="Iniciar sesión" />
+   </children>
+</Pane>
